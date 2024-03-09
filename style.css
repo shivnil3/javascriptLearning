@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    text-decoration: 'line-through';
+}       
+h2{
+    color:magenta;
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    color: beige;    
+}
+button{
+background-color:blanchedalmond;
+color:black;
+
+}
