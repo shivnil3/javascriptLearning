@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerText, innnerHtml and textcontent</title>    
+</head>
+<body>
+   <h1>The Element object</h1> 
+   <h2>Difference between InnerText,innnerHtml and textcontent</h2>
+    <p id="mypara">   This element has extra spaces and contains a <span> a span element</span></p>
+
+<button onclick="getInnerText()">showme innertText</button>
+<button onclick="getInnerHtml()">showme innerHtml</button>
+<button onclick="getTextcontent()">showme textcontent</button>
+
+<pre id="demo"></pre>
+    <script>
+        function getInnerText(){
+            let text=document.getElementById("mypara").innerText;
+            //set the value of 'text' var to innerText of 'demo' pre
+            document.getElementById("demo").innerText=text
+        }
+        function getInnerHtml(){
+            let text=document.getElementById("mypara").innerHTML;
+            //set the value of 'text' var to innerText of 'demo' pre
+            document.getElementById("demo").innerText=text
+        }
+        function getTextcontent(){
+            let text=document.getElementById("mypara").textContent;
+            //set the value of 'text' var to innerText of 'demo' pre
+            document.getElementById("demo").innerText=text
+        }
+        </script>
+        <a href="../index.html">Home</a>
+</body>
+</html>

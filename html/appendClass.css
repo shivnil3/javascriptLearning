@@ -1,0 +1,10 @@
+h1{
+    color: blue;
+    text-decoration: 'line-through';
+} 
+body{
+    color:red;
+}
+.newClass{
+    background-color: green;
+}
